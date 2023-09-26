@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.wardenmodother.init.WardenModotherModTabs;
 import net.mcreator.wardenmodother.init.WardenModotherModPotions;
 import net.mcreator.wardenmodother.init.WardenModotherModMobEffects;
+import net.mcreator.wardenmodother.init.WardenModotherModMenus;
 import net.mcreator.wardenmodother.init.WardenModotherModItems;
 import net.mcreator.wardenmodother.init.WardenModotherModFluids;
 import net.mcreator.wardenmodother.init.WardenModotherModFluidTypes;
@@ -68,6 +69,7 @@ public class WardenModotherMod {
 		WardenModotherModMobEffects.REGISTRY.register(bus);
 		WardenModotherModPotions.REGISTRY.register(bus);
 
+		WardenModotherModMenus.REGISTRY.register(bus);
 		WardenModotherModFluids.REGISTRY.register(bus);
 		WardenModotherModFluidTypes.REGISTRY.register(bus);
 	}

@@ -3,7 +3,7 @@
   "_type": "livingentity",
   "definition": {
     "mobName": "Donut King",
-    "mobLabel": "",
+    "mobLabel": "Donut King",
     "mobModelName": "Witch",
     "mobModelTexture": "satan_incognito.png",
     "mobModelGlowTexture": "",

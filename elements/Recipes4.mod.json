@@ -1,0 +1,69 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipes",
+          "text": {
+            "fixedValue": "Recipes"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 196,
+          "y": 39
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wandupgrade.png",
+          "use1Xscale": true,
+          "x": 135,
+          "y": 40
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sword.png",
+          "use1Xscale": true,
+          "x": 136,
+          "y": 104
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next",
+          "onClick": {
+            "name": "Recipes4to5treal"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 252,
+          "y": 40
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
