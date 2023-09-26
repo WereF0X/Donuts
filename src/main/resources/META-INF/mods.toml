@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="warden_modother"
 version="1.0.0"
 displayName="DonutMod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="feder, MCreator"
+credits="https://discord.gg/eCAHRcTYc9"
+displayURL="https://discord.gg/eCAHRcTYc9"
+authors="The_WereF0X"
 
 [[dependencies.warden_modother]]
     modId="minecraft"
