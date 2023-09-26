@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "warden_modother:block/dd_2_portal_ew"
+    },
+    "axis=x": {
+      "model": "warden_modother:block/dd_2_portal_ns"
+    }
+  }
+}

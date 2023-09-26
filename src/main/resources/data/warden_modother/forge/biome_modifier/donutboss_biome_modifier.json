@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "warden_modother:donutbiome",
+    "warden_modother:golddonutbiome"
+  ],
+  "spawners": {
+    "type": "warden_modother:donutboss",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

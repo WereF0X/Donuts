@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "warden_modother:block/donut",
+    "up": "warden_modother:block/donut",
+    "north": "warden_modother:block/donut",
+    "east": "warden_modother:block/donut",
+    "south": "warden_modother:block/donut",
+    "west": "warden_modother:block/donut",
+    "particle": "warden_modother:block/donut"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "2": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "3": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "4": {
+      "item": "minecraft:soul_sand"
+    },
+    "5": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "6": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "7": {
+      "item": "minecraft:sculk"
+    },
+    "8": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "result": {
+    "item": "warden_modother:warden_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "warden_modother:donut_2"
+    },
+    "1": {
+      "item": "warden_modother:enchanted_donut"
+    },
+    "2": {
+      "item": "warden_modother:donut_2"
+    },
+    "3": {
+      "item": "warden_modother:enchanted_donut"
+    },
+    "5": {
+      "item": "warden_modother:enchanted_donut"
+    },
+    "6": {
+      "item": "warden_modother:donut_2"
+    },
+    "8": {
+      "item": "warden_modother:donut_2"
+    }
+  },
+  "result": {
+    "item": "warden_modother:golden_donut_armor_leggings",
+    "count": 1
+  }
+}

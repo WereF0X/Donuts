@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Happy Birthday!",
+    "achievementDescription": "Enter the Donut Kingdom",
+    "achievementIcon": {
+      "value": "CUSTOM:Donut2"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 3,
+    "achievementType": "task",
+    "parent": {
+      "value": "story/mine_diamond"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"45\" y=\"95\"><field name=\"dimension\">CUSTOM:Donutdimensiomn</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "superior_fire",
+    "customModelName": "Normal",
+    "name": "Advanced Fire Wand",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DonutModAddons"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 3.7,
+    "usageCount": 201,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AdvancedFireHandRightclicked"
+    }
+  }
+}

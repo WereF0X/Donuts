@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "warden_modother:block/donuts_ore",
+    "particle": "warden_modother:block/donuts_ore"
+  },
+  "render_type": "solid"
+}

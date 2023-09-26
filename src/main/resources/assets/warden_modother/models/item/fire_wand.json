@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "warden_modother:item/bboit3a0qwre56wh0e9cs6er0fto1l26"
+  }
+}

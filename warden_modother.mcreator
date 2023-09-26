@@ -1,0 +1,1382 @@
+{
+  "mod_elements": [
+    {
+      "name": "WardenArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/warden_armor_leggings.json",
+          "src/main/resources/assets/warden_modother/models/item/warden_armor_boots.json",
+          "src/main/resources/assets/warden_modother/models/item/warden_armor_chestplate.json",
+          "src/main/java/net/mcreator/wardenmodother/item/WardenArmorItem.java",
+          "src/main/resources/assets/warden_modother/models/item/warden_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/warden_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/warden_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/warden_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/warden_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/sculk_sword.json",
+          "src/main/java/net/mcreator/wardenmodother/item/SculkSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkSwordRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/sculk_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkSwordRightclicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/SculkSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkAffinity",
+      "type": "enchantment",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_affinity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/enchantment/SculkAffinityEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Donut2",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/donut_2.json",
+          "src/main/java/net/mcreator/wardenmodother/item/Donut2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Donut",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/donut.json",
+          "src/main/java/net/mcreator/wardenmodother/block/DonutBlock.java",
+          "src/main/resources/assets/warden_modother/models/block/donut.json",
+          "src/main/resources/assets/warden_modother/models/item/donut.json",
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/donut.json",
+          "src/main/resources/data/warden_modother/forge/biome_modifier/donut_biome_modifier.json",
+          "src/main/resources/assets/warden_modother/blockstates/donut.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/ores/DonutFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Chocolate",
+      "type": "fluid",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/item/ChocolateItem.java",
+          "src/main/resources/assets/warden_modother/models/block/chocolate.json",
+          "src/main/resources/assets/warden_modother/models/item/chocolate_bucket.json",
+          "src/main/resources/assets/warden_modother/blockstates/chocolate.json",
+          "src/main/java/net/mcreator/wardenmodother/fluid/types/ChocolateFluidType.java",
+          "src/main/java/net/mcreator/wardenmodother/fluid/ChocolateFluid.java",
+          "src/main/java/net/mcreator/wardenmodother/block/ChocolateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Donutbiome",
+      "type": "biome",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/donutbiome_tree.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/treedecorators/DonutbiomeTrunkDecorator.java",
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/donutbiome_tree.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/treedecorators/DonutbiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/wardenmodother/world/features/treedecorators/DonutbiomeFruitDecorator.java",
+          "src/main/resources/data/warden_modother/worldgen/biome/donutbiome.json"
+        ]
+      }
+    },
+    {
+      "name": "HappyBirthday",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "happy_birthday",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/advancements/happy_birthday.json"
+        ]
+      }
+    },
+    {
+      "name": "Donutrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donutrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Donutblock",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donutblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Chocolateingot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolateingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/chocolateingot.json",
+          "src/main/java/net/mcreator/wardenmodother/item/ChocolateingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Chocolaterecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/chocolaterecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FireWandRightclicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/FireWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireWand",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/fire_wand.json",
+          "src/main/java/net/mcreator/wardenmodother/item/FireWandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedFireHandRightclicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_fire_hand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/AdvancedFireHandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedFireHand",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_fire_hand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/item/AdvancedFireHandItem.java",
+          "src/main/resources/assets/warden_modother/models/item/advanced_fire_hand.json"
+        ]
+      }
+    },
+    {
+      "name": "Chocolatetrade",
+      "type": "villagertrade",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolatetrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Key",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/keycraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Firewandrecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firewandrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/firewandrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Advwandrecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advwandrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/advwandrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnchantedDonut",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_donut",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/item/EnchantedDonutItem.java",
+          "src/main/resources/assets/warden_modother/models/item/enchanted_donut.json"
+        ]
+      }
+    },
+    {
+      "name": "DonutbossItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutboss_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/DonutbossItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Donutboss",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutboss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/donutboss_spawn_egg.json",
+          "src/main/java/net/mcreator/wardenmodother/entity/DonutbossEntity.java",
+          "src/main/java/net/mcreator/wardenmodother/client/renderer/DonutbossRenderer.java",
+          "src/main/resources/data/warden_modother/forge/biome_modifier/donutboss_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "DonutBox",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/loot_tables/chests/donut_box.json"
+        ]
+      }
+    },
+    {
+      "name": "Golddonutblock",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golddonutblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/golddonutblock.json",
+          "src/main/resources/assets/warden_modother/models/block/golddonutblock.json",
+          "src/main/resources/data/warden_modother/forge/biome_modifier/golddonutblock_biome_modifier.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/ores/GolddonutblockFeature.java",
+          "src/main/resources/assets/warden_modother/models/item/golddonutblock.json",
+          "src/main/java/net/mcreator/wardenmodother/block/GolddonutblockBlock.java",
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/golddonutblock.json",
+          "src/main/resources/assets/warden_modother/blockstates/golddonutblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Whitechocolate",
+      "type": "fluid",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whitechocolate",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/item/WhitechocolateItem.java",
+          "src/main/java/net/mcreator/wardenmodother/fluid/types/WhitechocolateFluidType.java",
+          "src/main/resources/assets/warden_modother/blockstates/whitechocolate.json",
+          "src/main/java/net/mcreator/wardenmodother/fluid/WhitechocolateFluid.java",
+          "src/main/java/net/mcreator/wardenmodother/block/WhitechocolateBlock.java",
+          "src/main/resources/assets/warden_modother/models/item/whitechocolate_bucket.json",
+          "src/main/resources/assets/warden_modother/models/block/whitechocolate.json"
+        ]
+      }
+    },
+    {
+      "name": "Golddonutbiome",
+      "type": "biome",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golddonutbiome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/world/features/treedecorators/GolddonutbiomeFruitDecorator.java",
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/golddonutbiome_tree.json",
+          "src/main/resources/data/warden_modother/worldgen/biome/golddonutbiome.json",
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/golddonutbiome_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldDonutDigger",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_donut_digger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/item/GoldDonutDiggerItem.java",
+          "src/main/resources/assets/warden_modother/models/item/gold_donut_digger.json"
+        ]
+      }
+    },
+    {
+      "name": "Multitoolrecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multitoolrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/multitoolrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OverTheLimit",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "over_the_limit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/advancements/over_the_limit.json"
+        ]
+      }
+    },
+    {
+      "name": "SugarOverdoseEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_overdose_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/SugarOverdoseEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SugarOverdoseEffectExpires",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_overdose_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/SugarOverdoseEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SugarOverdose",
+      "type": "potioneffect",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_overdose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/potion/SugarOverdoseMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "SugarOVerdosePotion",
+      "type": "potion",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_o_verdose_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Donuts",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donuts",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/donuts.json",
+          "src/main/java/net/mcreator/wardenmodother/item/DonutsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DonutsOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donuts_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/forge/biome_modifier/donuts_ore_biome_modifier.json",
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/donuts_ore.json",
+          "src/main/java/net/mcreator/wardenmodother/block/DonutsOreBlock.java",
+          "src/main/resources/assets/warden_modother/models/item/donuts_ore.json",
+          "src/main/resources/assets/warden_modother/blockstates/donuts_ore.json",
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/donuts_ore.json",
+          "src/main/resources/assets/warden_modother/models/block/donuts_ore.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/ores/DonutsOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "DonutsOreSmelting",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donuts_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donuts_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetPickaxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/donut_nugget_pickaxe.json",
+          "src/main/java/net/mcreator/wardenmodother/item/Donut_nuggetPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetAxe",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/item/Donut_nuggetAxeItem.java",
+          "src/main/resources/assets/warden_modother/models/item/donut_nugget_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetSword",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/donut_nugget_sword.json",
+          "src/main/java/net/mcreator/wardenmodother/item/Donut_nuggetSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetShovel",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/donut_nugget_shovel.json",
+          "src/main/java/net/mcreator/wardenmodother/item/Donut_nuggetShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetHoe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warden_modother/models/item/donut_nugget_hoe.json",
+          "src/main/java/net/mcreator/wardenmodother/item/Donut_nuggetHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donut_nugget_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetAxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donut_nugget_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetSwordRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donut_nugget_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetShovelRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donut_nugget_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Donut_nuggetHoeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_nugget_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donut_nugget_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenDonutArmor",
+      "type": "armor",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_donut_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/item/GoldenDonutArmorItem.java",
+          "src/main/resources/assets/warden_modother/models/item/golden_donut_armor_helmet.json",
+          "src/main/resources/assets/warden_modother/models/item/golden_donut_armor_leggings.json",
+          "src/main/resources/assets/warden_modother/models/item/golden_donut_armor_boots.json",
+          "src/main/resources/assets/warden_modother/models/item/golden_donut_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenDonutArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_donut_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/golden_donut_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenDonutArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_donut_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/golden_donut_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenDonutArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_donut_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/golden_donut_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenDonutArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_donut_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/golden_donut_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DonutnuggetSwordRightclicked",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutnugget_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/DonutnuggetSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireMasterTrade",
+      "type": "villagertrade",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_master_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FireMage",
+      "type": "achievement",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_mage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/advancements/fire_mage.json"
+        ]
+      }
+    },
+    {
+      "name": "FirePriest",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_priest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/advancements/fire_priest.json"
+        ]
+      }
+    },
+    {
+      "name": "Wandupgrade",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wandupgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/wandupgrade.json"
+        ]
+      }
+    },
+    {
+      "name": "Potionrecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionrecipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/recipes/brewing/PotionrecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Chocolatesmelt",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolatesmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/chocolatesmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Advwandsmelt",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advwandsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/advwandsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Golddonutsmekt",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golddonutsmekt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/golddonutsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Donutsmelt",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/donutsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Multitoolsmelt",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multitoolsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/multitoolsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "DonutbossEntityDies",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutboss_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/DonutbossEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantedDonutPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_donut_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/EnchantedDonutPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "THEYADDEDDONUTS",
+      "type": "achievement",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theyaddeddonuts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/advancements/theyaddeddonuts.json"
+        ]
+      }
+    },
+    {
+      "name": "DonutnuggetPickaxeItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutnugget_pickaxe_item_is_craftedsmelted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/DonutnuggetPickaxeItemIsCraftedsmeltedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DonutnuggetPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donutnugget_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/procedures/DonutnuggetPickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nethingotsmelt",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethingotsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/recipes/nethingotsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Testing",
+      "type": "tab",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DonutModAddons",
+      "type": "tab",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donut_mod_addons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "C2",
+      "type": "fluid",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/fluid/C2Fluid.java",
+          "src/main/resources/assets/warden_modother/models/item/c_2_bucket.json",
+          "src/main/resources/assets/warden_modother/blockstates/c_2.json",
+          "src/main/java/net/mcreator/wardenmodother/block/C2Block.java",
+          "src/main/java/net/mcreator/wardenmodother/fluid/types/C2FluidType.java",
+          "src/main/resources/assets/warden_modother/models/block/c_2.json",
+          "src/main/java/net/mcreator/wardenmodother/item/C2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Dd2",
+      "type": "dimension",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dd_2",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/resources/data/warden_modother/dimension_type/dd_2.json",
+          "src/main/resources/assets/warden_modother/models/block/dd_2_portal_ns.json",
+          "src/main/java/net/mcreator/wardenmodother/block/Dd2PortalBlock.java",
+          "src/main/resources/assets/warden_modother/models/item/dd_2.json",
+          "src/main/resources/assets/warden_modother/models/block/dd_2_portal_ew.json",
+          "src/main/resources/data/warden_modother/dimension/dd_2.json",
+          "src/main/java/net/mcreator/wardenmodother/world/teleporter/Dd2PortalShape.java",
+          "src/main/java/net/mcreator/wardenmodother/item/Dd2Item.java",
+          "src/main/resources/assets/warden_modother/blockstates/dd_2_portal.json",
+          "src/main/java/net/mcreator/wardenmodother/world/dimension/Dd2Dimension.java",
+          "src/main/java/net/mcreator/wardenmodother/world/teleporter/Dd2Teleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "Wc2",
+      "type": "fluid",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wc_2",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/fluid/types/Wc2FluidType.java",
+          "src/main/resources/assets/warden_modother/models/item/wc_2_bucket.json",
+          "src/main/java/net/mcreator/wardenmodother/fluid/Wc2Fluid.java",
+          "src/main/java/net/mcreator/wardenmodother/block/Wc2Block.java",
+          "src/main/java/net/mcreator/wardenmodother/item/Wc2Item.java",
+          "src/main/resources/assets/warden_modother/models/block/wc_2.json",
+          "src/main/resources/assets/warden_modother/blockstates/wc_2.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateFeature",
+      "type": "feature",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/forge/biome_modifier/chocolate_feature_biome_modifier.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/ChocolateFeatureFeature.java",
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/chocolate_feature.json",
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/chocolate_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "WhitechocolateFeature",
+      "type": "feature",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whitechocolate_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/whitechocolate_feature.json",
+          "src/main/resources/data/warden_modother/forge/biome_modifier/whitechocolate_feature_biome_modifier.json",
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/whitechocolate_feature.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/WhitechocolateFeatureFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "C2Feature",
+      "type": "feature",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2_feature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wardenmodother/world/features/C2FeatureFeature.java",
+          "src/main/resources/data/warden_modother/forge/biome_modifier/c_2_feature_biome_modifier.json",
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/c_2_feature.json",
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/c_2_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "Wc2Feature",
+      "type": "feature",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wc_2_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warden_modother/forge/biome_modifier/wc_2_feature_biome_modifier.json",
+          "src/main/resources/data/warden_modother/worldgen/configured_feature/wc_2_feature.json",
+          "src/main/java/net/mcreator/wardenmodother/world/features/Wc2FeatureFeature.java",
+          "src/main/resources/data/warden_modother/worldgen/placed_feature/wc_2_feature.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "fluid.warden_modother.whitechocolate": "White Chocolate",
+      "item.warden_modother.warden_armor_boots": "Warden Boots",
+      "advancements.fire_mage.title": "Fire Mage!",
+      "item.warden_modother.donutboss_spawn_egg": "Donut King Spawn Egg",
+      "item.warden_modother.donut_nugget_axe": "Donut Nugget Axe",
+      "item.warden_modother.c_2_bucket": "Hot Chocolate Bucket",
+      "advancements.fire_mage.descr": "Obtain a Fire Wand",
+      "item.minecraft.tipped_arrow.effect.sugar_o_verdose_potion": "Arrow of Sugar Overdose",
+      "fluid.warden_modother.chocolate": "Hot Chocolate",
+      "item.warden_modother.donut_2": "Donut",
+      "item.warden_modother.donut_nugget_shovel": "Donut Nugget Shovel",
+      "entity.warden_modother.donutboss": "Donut King",
+      "enchantment.warden_modother.sculk_affinity": "Sculk Affinity",
+      "effect.warden_modother.sugar_overdose": "Sugar Overdose",
+      "item.warden_modother.golden_donut_armor_boots": "Golden Donut Boots",
+      "item.warden_modother.golden_donut_armor_leggings": "Golden Donut Leggings",
+      "fluid.warden_modother.c_2": "Hot Chocolate",
+      "biome.warden_modother.donutbiome": "Donut Biome",
+      "item.minecraft.lingering_potion.effect.sugar_o_verdose_potion": "Lingering Potion of Sugar Overdose",
+      "item.warden_modother.fire_wand": "Fire Wand",
+      "item.warden_modother.golden_donut_armor_helmet": "Golden Donut Helmet",
+      "item.warden_modother.enchanted_donut": "Golden Donut",
+      "item.warden_modother.advanced_fire_hand": "Advanced Fire Wand",
+      "item.warden_modother.wc_2_bucket": "White Chocolate Bucket",
+      "fluid.warden_modother.wc_2": "White Chocolate",
+      "biome.warden_modother.golddonutbiome": "Gold Donut Biome ",
+      "advancements.theyaddeddonuts.title": "THEY ADDED DONUTS?!?!",
+      "itemGroup.tabtesting": "Testing",
+      "block.warden_modother.c_2": "Hot Chocolate",
+      "item.warden_modother.warden_armor_helmet": "Warden Helmet",
+      "advancements.over_the_limit.title": "Over The Limit!",
+      "item.warden_modother.donut_nugget_pickaxe": "Donut Nugget Pickaxe",
+      "block.warden_modother.chocolate": "Hot Chocolate",
+      "itemGroup.tabdonut_mod_addons": "Donut Mod Addons",
+      "item.warden_modother.warden_armor_chestplate": "Warden Chestplate",
+      "block.warden_modother.donuts_ore": "Donuts Ore",
+      "item_group.warden_modother.donut_mod_addons": "Donut Mod Addons",
+      "advancements.fire_priest.title": "Fire Priest!",
+      "item.warden_modother.warden_armor_leggings": "Warden Leggings",
+      "block.warden_modother.golddonutblock": "Gold Donut Block",
+      "advancements.happy_birthday.title": "Happy Birthday!",
+      "advancements.over_the_limit.descr": "Obtain a MultiTool",
+      "item.minecraft.splash_potion.effect.sugar_o_verdose_potion": "Splash Potion of Sugar Overdose",
+      "advancements.happy_birthday.descr": "Enter the Donut Kingdom",
+      "item.warden_modother.whitechocolate_bucket": "White Chocolate Bucket",
+      "block.warden_modother.whitechocolate": "White Chocolate",
+      "item.warden_modother.sculk_sword": "Sculk Sword",
+      "advancements.fire_priest.descr": "Upgrade your Fire Wand",
+      "item.warden_modother.chocolate_bucket": "Hot Chocolate Bucket",
+      "item.warden_modother.donut_nugget_sword": "Donut Nugget Sword",
+      "block.warden_modother.wc_2": "White Chocolate",
+      "item.warden_modother.donut_nugget_hoe": "Donut Nugget Hoe",
+      "block.warden_modother.donut": "Donut",
+      "item.warden_modother.donuts": "Donut Nugget",
+      "item.minecraft.potion.effect.sugar_o_verdose_potion": "Potion of Sugar Overdose",
+      "item.warden_modother.gold_donut_digger": "MultiTool",
+      "advancements.theyaddeddonuts.descr": "Obtain your first donut",
+      "item_group.warden_modother.testing": "Testing",
+      "item.warden_modother.dd_2": "Donut Kingdom Key",
+      "item.warden_modother.chocolateingot": "Chocolate Bar",
+      "item.warden_modother.golden_donut_armor_chestplate": "Golden Donut Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "warden_modother",
+    "modName": "DonutMod",
+    "version": "1.0.0",
+    "author": "feder, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wardenmodother",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

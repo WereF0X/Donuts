@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "warden_modother:donuts"
+    },
+    "1": {
+      "item": "warden_modother:donuts"
+    },
+    "2": {
+      "item": "warden_modother:donuts"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "warden_modother:donut_nugget_pickaxe",
+    "count": 1
+  }
+}

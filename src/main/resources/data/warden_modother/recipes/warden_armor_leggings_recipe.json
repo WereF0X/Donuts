@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "1": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "2": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "3": {
+      "item": "minecraft:ancient_debris"
+    },
+    "5": {
+      "item": "minecraft:ancient_debris"
+    },
+    "6": {
+      "item": "minecraft:sculk"
+    },
+    "8": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "item": "warden_modother:warden_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "sword_sculk",
+    "customModelName": "Normal",
+    "name": "Sculk Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Testing"
+    },
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 28,
+    "damageVsEntity": 7.3,
+    "usageCount": 230,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.SCULK"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SculkSwordRightclicked"
+    }
+  }
+}

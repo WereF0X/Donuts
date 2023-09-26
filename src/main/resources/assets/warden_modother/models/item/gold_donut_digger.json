@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "warden_modother:item/imgbin_minecraft-pickaxe-mod-halo-5-guardians-png"
+  }
+}

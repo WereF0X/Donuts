@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "warden_modother:donut_2"
+    },
+    "1": {
+      "item": "warden_modother:donut_2"
+    },
+    "2": {
+      "item": "warden_modother:donut_2"
+    },
+    "3": {
+      "item": "warden_modother:donut_2"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "warden_modother:donut_2"
+    },
+    "6": {
+      "item": "warden_modother:donut_2"
+    },
+    "7": {
+      "item": "warden_modother:donut_2"
+    },
+    "8": {
+      "item": "warden_modother:donut_2"
+    }
+  },
+  "result": {
+    "item": "warden_modother:donut",
+    "count": 1
+  }
+}

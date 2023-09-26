@@ -1,0 +1,23 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sugar Overdose",
+    "icon": "sugaroverdose.png",
+    "color": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "SugarOverdoseEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "SugarOverdoseEffectExpires"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "warden_helmet",
+    "enableBody": true,
+    "textureBody": "warden_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "warden_leggins2",
+    "enableBoots": true,
+    "textureBoots": "warden-equipment-addon-14",
+    "creativeTab": {
+      "value": "CUSTOM:Testing"
+    },
+    "armorTextureFile": "warden",
+    "helmetName": "Warden Helmet",
+    "bodyName": "Warden Chestplate",
+    "leggingsName": "Warden Leggings",
+    "bootsName": "Warden Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 34,
+    "damageValueHelmet": 11,
+    "damageValueBody": 23,
+    "damageValueLeggings": 19,
+    "damageValueBoots": 8,
+    "enchantability": 72,
+    "toughness": 1.5,
+    "knockbackResistance": 0.05,
+    "equipSound": {
+      "value": "entity.warden.heartbeat"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.SCULK_CATALYST"
+      }
+    ]
+  }
+}

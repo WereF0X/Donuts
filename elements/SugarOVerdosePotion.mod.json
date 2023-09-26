@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Sugar Overdose",
+    "splashName": "Splash Potion of Sugar Overdose",
+    "lingeringName": "Lingering Potion of Sugar Overdose",
+    "arrowName": "Arrow of Sugar Overdose",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:SugarOverdose"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

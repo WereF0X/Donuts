@@ -1,0 +1,47 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Donutbiome"
+      },
+      {
+        "value": "CUSTOM:Golddonutbiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Donut"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Chocolate"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Donut"
+    },
+    "portalParticles": {
+      "value": "GLOW"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Donut Kingdom Key",
+    "specialInfo": [],
+    "igniterTab": {
+      "value": "CUSTOM:DonutModAddons"
+    },
+    "texture": "key",
+    "portalTexture": "chocolate_fluid",
+    "enablePortal": true
+  }
+}

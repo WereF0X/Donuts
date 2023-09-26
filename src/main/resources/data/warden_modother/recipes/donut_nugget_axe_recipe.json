@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "warden_modother:donuts"
+    },
+    "1": {
+      "item": "warden_modother:donuts"
+    },
+    "2": {
+      "item": "warden_modother:donuts"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "warden_modother:donut_nugget_axe",
+    "count": 1
+  }
+}

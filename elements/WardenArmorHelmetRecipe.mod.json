@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SCULK_SENSOR"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.SCULK_SENSOR"
+      },
+      {
+        "value": "Blocks.SCULK"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_EMERALD_ORE"
+      },
+      {
+        "value": "Blocks.SCULK"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_DIAMOND_ORE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DEEPSLATE_DIAMOND_ORE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WardenArmor.helmet"
+    },
+    "name": "warden_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

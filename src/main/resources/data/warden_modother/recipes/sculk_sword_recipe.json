@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:arrow"
+    },
+    "3": {
+      "item": "minecraft:sculk"
+    },
+    "4": {
+      "item": "minecraft:sculk"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "item": "warden_modother:sculk_sword",
+    "count": 1
+  }
+}

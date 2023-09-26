@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "warden_modother:donut_2"
+    },
+    "title": {
+      "translate": "advancements.happy_birthday.title"
+    },
+    "description": {
+      "translate": "advancements.happy_birthday.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "happy_birthday": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "warden_modother:donutdimensiomn"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "minecraft:story/mine_diamond"
+}

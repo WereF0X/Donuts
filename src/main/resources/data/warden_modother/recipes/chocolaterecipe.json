@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "1": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "2": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "warden_modother:chocolateingot",
+    "count": 1
+  }
+}

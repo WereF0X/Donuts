@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "warden_modother:block/gold_donut_block",
+    "up": "warden_modother:block/gold_donut_block",
+    "north": "warden_modother:block/gold_donut_block",
+    "east": "warden_modother:block/gold_donut_block",
+    "south": "warden_modother:block/gold_donut_block",
+    "west": "warden_modother:block/gold_donut_block",
+    "particle": "warden_modother:block/gold_donut_block"
+  },
+  "render_type": "solid"
+}

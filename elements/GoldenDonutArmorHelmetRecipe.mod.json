@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Donut2"
+      },
+      {
+        "value": "CUSTOM:EnchantedDonut"
+      },
+      {
+        "value": "CUSTOM:Donut2"
+      },
+      {
+        "value": "CUSTOM:EnchantedDonut"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EnchantedDonut"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GoldenDonutArmor.helmet"
+    },
+    "name": "golden_donut_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

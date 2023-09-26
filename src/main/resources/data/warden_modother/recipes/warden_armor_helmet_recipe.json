@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "2": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "3": {
+      "item": "minecraft:sculk"
+    },
+    "4": {
+      "item": "minecraft:deepslate_emerald_ore"
+    },
+    "5": {
+      "item": "minecraft:sculk"
+    },
+    "6": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "8": {
+      "item": "minecraft:deepslate_diamond_ore"
+    }
+  },
+  "result": {
+    "item": "warden_modother:warden_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "2": {
+      "item": "minecraft:deepslate_diamond_ore"
+    },
+    "3": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "5": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "result": {
+    "item": "warden_modother:warden_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Donut Mod Addons",
+    "icon": {
+      "value": "CUSTOM:Donut2"
+    },
+    "showSearch": true
+  }
+}

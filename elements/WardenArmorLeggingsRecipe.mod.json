@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DEEPSLATE_DIAMOND_ORE"
+      },
+      {
+        "value": "Blocks.SCULK_CATALYST"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_DIAMOND_ORE"
+      },
+      {
+        "value": "Blocks.ANCIENT_DEBRIS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.ANCIENT_DEBRIS"
+      },
+      {
+        "value": "Blocks.SCULK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.SCULK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WardenArmor.legs"
+    },
+    "name": "warden_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}
